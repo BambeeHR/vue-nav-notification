@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <Notification
+    <NavNotification
       :notifications="notifications"
     >
       <img
         slot="icon"
         src="./assets/logo.png"
       />
-    </Notification>
+    </NavNotification>
   </div>
 </template>
 
